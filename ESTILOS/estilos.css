@@ -1,0 +1,103 @@
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    padding: 10px; 
+    text-align: center;
+    color: #e37777; 
+}
+
+.padre {
+    padding: 20px;
+    background-color: rgba(216, 241, 241, 0.984);
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas: 
+        "header header header"
+        "nav   nav    nav"
+        "cont1  cont2  cont2"
+        "cont1  cont3  cont3"
+        "foot  foot   foot";
+    gap: 20px;
+}
+
+.padre .header {
+    grid-area: header;
+    background-color: #c1baf2;
+    padding: 10px;
+}
+
+.padre .nav {
+    grid-area: nav;
+    font-size: 20px;
+}
+
+.navbar .navbar-brand {
+    font-size: 30px; 
+    font-weight: bold; 
+    color: rgb(148, 139, 206);
+}
+
+.navbar .nav-link {
+    color: #700391;
+}
+
+.navbar .nav-link:hover {
+    color: #bf64d6;
+}
+
+.navbar-toggler-icon {
+    background-image: url('../IMG/sh.png');
+    background-size: cover;
+}
+
+.padre .cont1 {
+    grid-area: cont1;
+    margin-bottom: 20px;
+}
+
+.carousel-inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.padre .cont2 {
+    grid-area: cont2;
+}
+
+.padre .cont3 {
+    grid-area: cont3;
+}
+
+.padre .foot {
+    grid-area: foot;
+    background-color: #c1baf2;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin: 0;
+}
+
+.accordion-button {
+    background-color: #f4caca;
+    color: rgb(155, 77, 115);
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e0b7eb;
+    color: white;
+}
+
+.accordion-body {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #e970c7;
+}

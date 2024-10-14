@@ -1,0 +1,87 @@
+body {
+    background-image: url('https://i.pinimg.com/236x/d2/eb/07/d2eb07bc3c7734641bdd8475b278d7ed.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, rgba(135, 136, 209, 0.7), rgba(165, 100, 120, 0.744));
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #472049;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+}
+
+.container {
+    background-color: rgba(218, 95, 214, 0.223);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px; 
+    margin: 20px auto; 
+}
+
+.carousel {
+    margin: 0 auto;
+    width: 90%; 
+}
+
+.carousel-inner img {
+    width: 100%; 
+    height: auto; /* Ajusta la altura automáticamente */
+    max-height: 550px; 
+    object-fit: cover; 
+    padding-top: 30px;
+}
+
+footer {
+    background-color: rgba(236, 236, 236, 0.8); 
+    padding: 20px;
+    text-align: center;
+}
+
+.list-group-item {
+    background-color: rgba(190, 128, 188, 0.553); 
+    border: none; 
+}
+
+.list-group-item h5 {
+    color: #0b0b4d; 
+}
+
+.list-group-item p {
+    color: #000000; 
+}
+
+p {
+    font-size: 19px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+/* Estilos para responsividad */
+@media (max-width: 768px) {
+    h5 {
+        font-size: 22px; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+    }
+
+    p {
+        font-size: 17px; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+    }
+
+    .container {
+        padding: 20px; /* Espaciado interno más pequeño en pantallas pequeñas */
+    }
+
+    .carousel-inner img {
+        max-height: 300px; /* Menor altura para imágenes en pantallas pequeñas */
+    }
+}
